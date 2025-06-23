@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{353D62ED-F4BB-4429-BB15-2204984C9A3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawler", "src\Crawler\Crawler.csproj", "{D5505DC3-7712-4C05-B69D-5C737BEB2F44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUI", "src\WebUI\WebUI.csproj", "{D657C695-4D2B-400E-9327-9BEB229A8EFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5505DC3-7712-4C05-B69D-5C737BEB2F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5505DC3-7712-4C05-B69D-5C737BEB2F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5505DC3-7712-4C05-B69D-5C737BEB2F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5505DC3-7712-4C05-B69D-5C737BEB2F44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D657C695-4D2B-400E-9327-9BEB229A8EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D657C695-4D2B-400E-9327-9BEB229A8EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D657C695-4D2B-400E-9327-9BEB229A8EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D657C695-4D2B-400E-9327-9BEB229A8EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D5505DC3-7712-4C05-B69D-5C737BEB2F44} = {353D62ED-F4BB-4429-BB15-2204984C9A3F}
+		{D657C695-4D2B-400E-9327-9BEB229A8EFA} = {353D62ED-F4BB-4429-BB15-2204984C9A3F}
+	EndGlobalSection
+EndGlobal
